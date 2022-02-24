@@ -1,0 +1,115 @@
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+}
+.card-img-1 img, .card-img-2 img{
+    width: 100%;
+    height: 100%;
+}
+.card-text-1 h2, .card-text-2 h2{
+    text-align: center;
+    margin-top: 20%;
+
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+}
+.card-text-1 p, .card-text-2 p{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    color: hsl(232, 10%, 55%);
+    font-weight: normal;
+}
+.card-text-1 span, .card-text-2 span{
+    margin-left: 5%;
+    margin-top: 5px;
+    font-weight: normal;
+    border-bottom: 2px solid hsl(232, 10%, 55%);
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grids img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.card-img-3{
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.card-img-4{
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.card-img-3,.card-img-4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content:center;
+    font-family: 'Fraunces', sans-serif;
+}
+.card-img-3 h2,.card-img-4 h2{
+    margin-top: 35%;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+}
+.card-img-3{
+    color: hsl(167, 40%, 24%);
+}
+.card-img-4{
+    color: hsl(198, 62%, 26%);;
+}
+.card-img-3 p, .card-img-4 p{
+    font-size: 14px;
+}
+
+
+
+.cliente{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    height: 80vh;
+}
+.cliente-text{
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 5px;
+}
+.cliente-pessoas{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 5%;
+    color: hsl(232, 10%, 55%);
+    
+}
+.cliente-pessoas-option img{
+    border-radius: 50%;
+    width: 20%;
+    margin: 5% 0%;
+}
+.cliente-name-cargo{
+    margin-top: 5%;
+}
+

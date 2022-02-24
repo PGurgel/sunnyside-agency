@@ -1,0 +1,40 @@
+header{
+    background-image: url(../images/desktop/image-header.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-start;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+
+}
+.cabecalho-menu-item{
+    text-decoration: none;
+
+}
+.cabecalho, .cabecalho-menu-item{
+    color: #fff;
+}
+.cabecalho-text-principal{
+    text-align: center;
+    margin-top: 5%;
+}
+.cabecalho-text-principal h1{
+    font-family: Fraunces;
+    font-weight: 900;
+    letter-spacing: 5px;
+    font-size: 6rem;
+    color: #fff;
+}
+.cabecalho-text-principal img{
+    margin-top: 8%;
+    color: #fff;
+}
